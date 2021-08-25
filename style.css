@@ -14,15 +14,10 @@
     padding: 0px 50px 50px 50px;
     margin: 0;
 }
-.quote {
+.index-quote {
     background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/amsterdam-index.jpg");
 }
-
-.para {
-    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/dubai3.jpg");
-}
-
-.quote, .para {
+.index-quote {
     display: block;
     margin: 0;
 
@@ -39,12 +34,6 @@
 
     padding: 150px;
 }
-
-
-
-/* STYLES REGARDING INDIVIDUAL BLOG PAGES */
-
-
 
 /* SETTING UP IMAGES (INITIAL PAGE + INDIVIDUAL BLOG PAGES) */
 
@@ -68,6 +57,9 @@
 }
 .barcelona-quote{
     background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/barc-second-pic.jpg");
+}
+.dubai-quote {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/dubai3.jpg");
 }
 
 /* DIVS WITH IMAGE BACKGROUNDS */
@@ -100,7 +92,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: whitesmoke;
 }
-.barcelona-info{
+.barcelona-info {
     display: block;
     margin: 0;
     background-color: whitesmoke;
@@ -116,9 +108,6 @@
 }
 
 /* DUBAI  */
-
-
-
 
 .dubai-intro {
     background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/dubai.jpg");
