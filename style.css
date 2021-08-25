@@ -34,11 +34,19 @@
     margin: 0;
 }
 
-.quote {
+.barcelona-quote{
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/barc-second-pic.jpg");
+}
+
+.index-quote {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/amsterdam-index.jpg");
+}
+
+.index-quote, .barcelona-quote {
     display: block;
     margin: 0;
 
-    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/amsterdam-index.jpg");
+    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -52,6 +60,8 @@
 
     padding: 150px;
 }
+
+
 
 .barcelona-intro, .dubai-intro {
     display: block;
@@ -70,18 +80,32 @@
     color: white;
     padding: 150px;
 }
-
-.dubai-intro {
-    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/dubai.jpg");
-}
-
-.barcelona-info{
+.barcelona-about{
     display: block;
     margin: 0;
 
     background-color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.barcelona-about-heading {
+    padding: 50px;
+    margin: 0;
+}
+
+.barcelona-about-text {
+    padding: 0px 50px 50px 50px;
+    margin: 0;
+}
+
+
+
+
+.dubai-intro {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/dubai.jpg");
+}
+
+
 .dubai {
     text-align: center;
 }
