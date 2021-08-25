@@ -1,74 +1,25 @@
 /* STYLES REGARDING THE INITIAL PAGE */
 
-.introduction {
-    display: block;
-    margin: 0;
-
-    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/city-from-above.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-
-    padding: 150px;
-}
-
 .about {
     display: block;
     margin: 0;
-
     background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .about-heading {
     padding: 50px;
     margin: 0;
 }
-
 .about-text {
     padding: 0px 50px 50px 50px;
     margin: 0;
 }
 
-.barcelona-quote{
-    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/barc-second-pic.jpg");
+/* SETTING UP IMAGES (INITIAL PAGE + INDIVIDUAL BLOG PAGES) */
+
+.introduction {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/city-from-above.jpg");
 }
-
-.index-quote {
-    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/amsterdam-index.jpg");
-}
-
-.index-quote, .barcelona-quote {
-    display: block;
-    margin: 0;
-
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-
-    padding: 150px;
-}
-
-
-
-
-   /* STYLES REGARDING INDIVIDUAL BLOG PAGES */
-
-
-
 .amsterdam-intro {
     background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/amsterdam-intro.jpg");
 }
@@ -78,9 +29,27 @@
 .dubai-intro {
     background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/dubai.jpg");
 }
-.barcelona-intro, .dubai-intro, .amsterdam-intro {
+.index-quote {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/amsterdam-index.jpg");
+}
+.amsterdam-quote {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/amsterdam-index.jpg");
+}
+.barcelona-quote{
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/barc-second-pic.jpg");
+}
+
+/* DIVS WITH IMAGE BACKGROUNDS */
+
+.introduction, .index-quote, .amsterdam-intro, .barcelona-intro, .dubai-intro, .amsterdam-quote, .barcelona-quote, .dubai-quote {
     display: block;
+    padding: 150px;
     margin: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+    /* IMAGE PARALLAX */
 
     background-size: cover;
     background-position: center;
@@ -88,15 +57,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
-    
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    padding: 150px;
 }
 
+/* STYLES REGARDING INDIVIDUAL BLOG PAGES */
 
-.barcelona-about{
+/* BARCELONA */
+
+.barcelona-about {
     display: block;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -105,7 +72,6 @@
 .barcelona-info{
     display: block;
     margin: 0;
-
     background-color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -118,6 +84,7 @@
     margin: 0;
 }
 
+/* DUBAI  */
 
 
 
