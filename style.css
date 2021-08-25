@@ -1,3 +1,5 @@
+/* STYLES REGARDING THE INITIAL PAGE */
+
 .introduction {
     display: block;
     margin: 0;
@@ -53,11 +55,26 @@
     padding: 150px;
 }
 
+/* STYLES REGARDING INDIVIDUAL BLOG PAGES */
+
+
+
+.amsterdam-intro {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/amsterdam-intro.jpg");
+}
+
 .barcelona-intro {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/barc-intro.jpg");
+}
+
+.dubai-intro {
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/dubai.jpg");
+}
+
+.barcelona-intro, .dubai-intro, .amsterdam-intro {
     display: block;
     margin: 0;
 
-    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/barc-intro.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -71,7 +88,7 @@
     padding: 150px;
 }
 
-.barcelona-info {
+.barcelona-info{
     display: block;
     margin: 0;
 
