@@ -86,6 +86,9 @@ button:hover{
     min-height: 200px;
 }
 
+.index-quote-text, .amsterdam-quote-text, .barcelona-quote-text, .dubai-quote-text{
+    padding: 15%
+}
 
 /* STYLES REGARDING INDIVIDUAL BLOG PAGES */
 
