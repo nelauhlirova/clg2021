@@ -85,12 +85,3 @@
     padding: 0 10% 10% 10%;
     margin: 0;
 }
-
-/* DUBAI  */
-
-.dubai-intro {
-    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../clg2021/images/dubai.jpg");
-}
-.dubai {
-    text-align: center;
-}
