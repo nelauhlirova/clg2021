@@ -129,6 +129,7 @@ button:hover {
 .gallery-photos {
     display: flex;
     flex-wrap: wrap;
+    height;
 }
 
 /* FOOTER */
