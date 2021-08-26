@@ -89,7 +89,7 @@ button:hover{
 
 /* STYLES REGARDING INDIVIDUAL BLOG PAGES */
 
-.amsterdam-about, .barcelona-about, .dubai-about {
+.amsterdam-about, .barcelona-about, .dubai-about, .index-about {
     display: block;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
