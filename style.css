@@ -129,7 +129,7 @@ button:hover {
 .gallery-photos-container {
     display: flex;
     flex-wrap: wrap;
-    height;
+    
 }
 .gallery-photos {
     width: 30%;
