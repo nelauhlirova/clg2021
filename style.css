@@ -87,7 +87,8 @@ button:hover{
 }
 
 .index-quote-text, .amsterdam-quote-text, .barcelona-quote-text, .dubai-quote-text{
-    padding: 15%
+    padding: 15%;
+    font-size:xx-large;
 }
 
 /* STYLES REGARDING INDIVIDUAL BLOG PAGES */
