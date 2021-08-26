@@ -126,10 +126,14 @@ button:hover {
     padding: 10%;
     margin: 0;
 }
-.gallery-photos {
+.gallery-photos-container {
     display: flex;
     flex-wrap: wrap;
     height;
+}
+.gallery-photos {
+    width: 30%;
+    height: 30%;
 }
 
 /* FOOTER */
