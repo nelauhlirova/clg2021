@@ -122,7 +122,7 @@ button:hover{
     color: white;
     background-color: rgb(56, 56, 56);
 }
-.contacts > h2 {
+.contacts-heading {
     margin: 0;
 }
 td, th {
@@ -136,10 +136,21 @@ td, th {
 th > a {
     color: white;
 }
+.social-media-heading {
+    margin: 0 0 0 0;
+}
 .social-media-links > a > img {
     height: 50px;
+    border-radius: 50%;
+    margin: 2% 2% 0 0;
 }
-
-@media(min-width: 900px) {
-
+@media(min-width: 800px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .social-media-links > a > img {
+        margin: 10% 10% 0 0;
+    }
 }
