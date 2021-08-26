@@ -29,12 +29,12 @@ button:hover{
     margin: 0;
 }
 .index-about-heading {
-    padding: 50px;
+    padding: 10% 10% 5% 10%;
     margin: 0;
     font-family: 'Playfair Display', serif
 }
 .index-about-text {
-    padding: 0px 50px 50px 50px;
+    padding: 0 10% 10% 10%;
     margin: 0;
 }
 
@@ -102,7 +102,7 @@ button:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .amsterdam-about-heading, .amsterdam-info-heading, .barcelona-about-heading, .barcelona-info-heading, .dubai-about-heading, .dubai-info-heading {
-    padding: 10%;
+    padding: 10% 10% 5% 10%;
     margin: 0;
 }
 .amsterdam-about-text, .amsterdam-info-text, .barcelona-about-text, .barcelona-info-text, .dubai-about-text, .dubai-info-text {
@@ -112,6 +112,16 @@ button:hover{
 
 /* FOOTER */
 
+.footer {
+    display: block;
+    padding: 10%;
+    margin: 0;
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+.contacts > h2 {
+    margin: 0;
+}
 td, th {
     height: 50px;
     border: none;
@@ -120,7 +130,13 @@ td, th {
 .col1 {
     padding: 0 20px 0 0;
 }
-
+th > a {
+    color: white;
+}
 .social-media-links > a > img {
     height: 50px;
+}
+
+@media(min-width: 900px) {
+
 }
